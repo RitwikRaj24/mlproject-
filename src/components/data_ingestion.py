@@ -15,6 +15,7 @@ from src.components.model_trainer import ModelTrainerConfig
 from src.components.model_trainer import ModelTrainer
 
 
+
 @dataclass
 class DataIngestionConfig:
     train_data_path: str=os.path.join('artifact', 'train.csv')
